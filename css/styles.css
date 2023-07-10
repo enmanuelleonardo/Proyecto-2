@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+/* En este archivo escriban su CSS */
+/* Fonts */
+/* Importar aquí la font */
+
+
+/* Aquí les dejamos como ayuda este "reset" en el cual ajustamos algunas propiedades 
+cuyos valores asigna por defecto el navegador. */
+
+
+/* Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* Para que el scrolleo en la one page sea suave */
+    scroll-behavior: smooth;
+}
+
+
+/* Para quitar los puntos a los items de listas */
+ul {
+    list-style: none;
+    display: flex;
+}
+
+
+/* Para que los enlaces hereden el color de texto y no tengan subrayado */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+      font-family: "lato", sans-serif;
+      background-color: #fbfbfb;
+      font-size: 18px;
+}
+
+header {
+        height: 90px;
+        display: flex;
+        justify-content:space-around;
+        border-bottom: 3px gray ridge;
+        background-color: #fbfbfb;
+        position: fixed;
+        left: 0;
+        top: 0;
+        right: 0;
+}
+
+
+/* Este max-width es para que el contenido no se "estire" demasiado hacia los costados y
+*  el margin: auto; para tenerlo centrado fácilmente ;) */
+
+main {
+      max-width: 1200px;
+      margin: auto;
+      padding-top: 120px;
+}
+
+h1 {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 30px;
+}
+
+h2 {
+    font-size: 28px;
+    text-align: center;
+    margin-top: 50px;
+    padding-top: 20px;
+}
+
+#perrito {
+          width: 95%;
+          border-radius: 50%;
+          margin-top: 20px;        
+}
+
+div {
+     background-color: rgba(175, 89, 158, 0.3);    
+     border-radius: 50px;
+}
+
+footer {
+        background-color: #af599e;
+        height: 90px;
+        color: #fbfbfb;
+}
+
+#descargar {
+            background-color: #af599e;
+            color: #fbfbfb;
+            width: 200px;
+            font-size: 20px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+            margin-top: 20px;
+}
+
+p {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 30px;
+    line-height: 1.2em;
+}
+
+img {
+     width: 50px;
+}
+
+#contenedor {
+             display: flex;
+             justify-content: space-around;
+             background-color: #fbfbfb;
+             margin-bottom: 60px;
+             margin-top: 60px;
+} 
+
+.center {
+         display: flex;
+         justify-content: center;
+         background-color: #fbfbfb;
+         width: 75vw;
+         max-width: 1000px;
+         min-width: 320px;
+         margin: auto;
+}
+
+#eidos {
+        height: 80px;
+        width: 150px;
+        padding-top: 5px;
+}
+
+nav  {
+      margin-top: 25px;
+      font-size: 18px;  
+}
+
+header a
+        {
+         padding: 10px 20px;
+}
+
+
+/*
+#inicio {
+           min-height: 100vh;
+}
+
+#contacto {
+            min-height: 100vh;
+}
+*/
+
+.bn632-hover {
+                width: 160px;
+                font-size: 16px;
+                font-weight: 600;
+                color: #fff;
+                cursor: pointer;
+                margin: 20px;
+                height: 55px;
+                text-align: center;
+                border: none;
+                background-size: 300% 100%;
+                border-radius: 50px;
+                -o-transition: all 0.4s ease-in-out;
+                -webkit-transition: all 0.4s ease-in-out;
+                transition: all 0.4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+                      background-position: 100% 0;
+                      -moz-transition: all 0.4s ease-in-out;
+                      -o-transition: all 0.4s ease-in-out;
+                      -webkit-transition: all 0.4s ease-in-out;
+                      transition: all 0.4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+                      outline: none;
+  }
+  
+  .bn632-hover.bn24 {
+                     background-image: linear-gradient(to right, #6253e1, #852d91, #a3a1ff, #f24645);
+                     box-shadow: 0 4px 15px 0 rgba(126, 52, 161, 0.75);
+  }
+
+  .bn932-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align: center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .bn932-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+  }
+  
+  .bn932-hover:focus {
+    outline: none;
+  }
+  
+  .bn932-hover.bn24 {
+                    background-image: linear-gradient(to right, #e6745e, #cc2e5c, #723dc6, #27c3f3);
+                    box-shadow: 0 4px 15px 0 rgba(212, 38, 79, 0.75);
+  }
+
+  li.menu-item a {
+                  padding: 16px;
+                  display: inline-block;
+  }
+
+  li.menu-item:hover {
+                      background: rgba(175, 89, 158, 0.3);
+                      transition: background-color 0.3s;
+  }
+
+  /* Estilos para dispositivos móviles */
+@media (max-width: 767px) 
+    header img {
+      max-width: 50%;
+      margin: 0 auto;
+    }
+    
+    /* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 1023px) {
+    section h1 {
+      font-size: 32px;
+    }
+
+    
+/* Estilos para tablets */
+@media (min-width: 768px) and (max-width: 1023px) 
+    section h1 {
+      font-size: 32px;
+    }
+  
+  /* Estilos para pantallas grandes */
+  @media (min-width: 1024px) 
+    header h1 {
+      font-size: 30px;
+      margin-top: 1;
+      margin-left: 10px;
+    }
+
+/* Recomendaciones! 
+*  - Comenzar desde lo más general y luego ir hacia lo mas específico, asignando primero
+*    "estilos generales". Una buena idea sería comenzar por el <body> ;)
+*
+*  - Recuerden que queremos evitar "repetir código", en CSS usando la cualidad de la herencia
+*    podemos setear ciertas propiedades en un elemento padre y dejar que sean heredadas (por ejemplo: font-size)
+*
+*  - Nadie sabe todas las propiedades CSS de memoria, si no saben como hacer algo no lo recuerdan, la respuesta
+*    pueden encontrarla buscando en la web algo como "CSS como hacer ... " o "propiedad css para hacer ..."
+*
+*  - Usen mucho las herramientas para desarrolladores del navegador para ir
+*    probando el CSS que escriben, resolver dudas y problemas.
+*
+*  - Paciencia, resiliencia y creatividad! No se desanimen, las primeras experiencias maquetando con HTML y CSS
+*    pueden ser frustrantes, pero estas habilidades se van desarrollando con la experiencia, es como aprender
+*    un trabajo manual, hacer una artesanía, tocar un instrumento musical... la práctica es todo!
+*/
